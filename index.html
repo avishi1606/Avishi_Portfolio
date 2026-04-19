@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avishi Tyagi — Data Analyst</title>
+    <meta
+      name="description"
+      content="Avishi Tyagi — Analytics professional specialising in SQL, Power BI, Python, and fraud detection."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ── NAV ─────────────────────────────────────────────────────────── -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">AT<span class="dot">.</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── HERO ────────────────────────────────────────────────────────── -->
+    <section id="hero">
+      <canvas id="grid-canvas"></canvas>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-label mono fade-up">
+            Analytics · SQL · Power BI · Python
+          </p>
+          <h1 class="hero-name fade-up">Avishi<br /><em>Tyagi</em></h1>
+          <p class="hero-sub fade-up">
+            I turn raw, messy datasets into decisions.<br />
+            Currently at <span class="accent">Driffle</span> — payments &amp;
+            fraud analytics.
+          </p>
+          <div class="hero-actions fade-up">
+            <a href="#experience" class="btn-primary">View Work</a>
+            <a href="#contact" class="btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap fade-up">
+          <div class="hero-photo-frame">
+            <div class="corner-tl"></div>
+            <img src="images/photo.jpg" alt="Avishi Tyagi" />
+            <div class="scanlines"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll hint -->
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      </div>
+
+      <div class="hero-stats fade-up">
+        <div class="stat">
+          <span class="stat-num">3</span
+          ><span class="stat-label">Internships</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">200K+</span
+          ><span class="stat-label">Rows Handled</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">9.02</span><span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">8</span
+          ><span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ───────────────────────────────────────────────────────── -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-label mono">01 / About</div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h2 class="section-heading">
+              I build things<br /><em>with data.</em>
+            </h2>
+            <p>
+              Analytics professional with hands-on experience building SQL
+              pipelines, Power BI dashboards, and Python-based forecasting
+              models across healthcare, defence, and fintech domains.
+            </p>
+            <p>
+              At IBM I normalized 10,000+ patient records and built dashboards
+              that drove resource allocation. At BEL I processed half a million
+              drone sensor logs and predicted maintenance failures. At Driffle I
+              analyse 200K+ payment transactions to detect fraud and automate
+              chargeback reporting.
+            </p>
+            <p>
+              Currently completing a B.Tech in Industrial IoT at GGSIPU (CGPA
+              9+), where I think about systems — physical, digital, and
+              financial — and how data flows through all of them.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <div class="card-inner">
+              <div class="card-row mono">
+                <span class="key">Role</span
+                ><span class="val">Global Payments Analyst Intern</span>
+              </div>
+              <div class="card-row mono">
+                <span class="key">Company</span
+                ><span class="val accent">Driffle</span>
+              </div>
+              <div class="card-row mono">
+                <span class="key">Location</span
+                ><span class="val">Gurugram, India</span>
+              </div>
+              <div class="card-row mono">
+                <span class="key">Degree</span
+                ><span class="val">B.Tech IIoT — GGSIPU</span>
+              </div>
+              <div class="card-row mono">
+                <span class="key">CGPA</span
+                ><span class="val accent">9.02 / 10</span>
+              </div>
+              <div class="card-row mono">
+                <span class="key">Email</span
+                ><span class="val">avishi.tyagi004@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ──────────────────────────────────────────────────── -->
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-label mono">02 / Experience</div>
+        <h2 class="section-heading reveal">Where I've<br /><em>worked.</em></h2>
+
+        <div class="timeline">
+          <!-- Driffle -->
+          <div class="timeline-item reveal">
+            <div class="tl-meta">
+              <span class="tl-date mono">Jan 2026 – Present</span>
+              <span class="tl-dot"></span>
+            </div>
+            <div class="tl-body">
+              <div class="tl-header">
+                <h3>Global Payments Analyst Intern</h3>
+                <span class="tl-company accent">Driffle</span>
+                <span class="tl-loc mono">Gurugram</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Analysed <strong>200,000+</strong> payment transaction records
+                  to identify suspicious patterns and flag fraudulent activity,
+                  directly supporting the fraud prevention pipeline.
+                </li>
+                <li>
+                  Contributed to a <strong>fraud detection model</strong> by
+                  extracting and engineering features from transaction logs,
+                  improving the team's ability to intercept fraudulent
+                  transactions before settlement.
+                </li>
+                <li>
+                  Analysed payment gateway performance — authorization rates,
+                  failure codes, settlement timelines — across
+                  <strong>4 gateways</strong>.
+                </li>
+                <li>
+                  Built <strong>SQL data validation checks</strong> across
+                  multi-source payment datasets, ensuring consistency before
+                  data entered reporting or model pipelines.
+                </li>
+                <li>
+                  Developed a <strong>chargeback analysis tool</strong> that
+                  automated end-to-end chargeback reporting, eliminating a
+                  previously manual process.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span class="tag">SQL</span
+                ><span class="tag">Fraud Detection</span
+                ><span class="tag">Python</span
+                ><span class="tag">Payment Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- IBM -->
+          <div class="timeline-item reveal">
+            <div class="tl-meta">
+              <span class="tl-date mono">Jun – Aug 2024</span>
+              <span class="tl-dot"></span>
+            </div>
+            <div class="tl-body">
+              <div class="tl-header">
+                <h3>Data Analytics Intern</h3>
+                <span class="tl-company accent">IBM</span>
+                <span class="tl-loc mono">Delhi</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Cleaned and normalised a healthcare dataset of
+                  <strong>10,000+ patient records</strong> using SQL and Excel,
+                  resolving inconsistencies across 5 data fields.
+                </li>
+                <li>
+                  Designed and delivered a
+                  <strong>Power BI Healthcare Analytics Dashboard</strong>
+                  tracking patient visits, satisfaction scores, and demographics
+                  across 8 departments.
+                </li>
+                <li>
+                  Wrote <strong>15+ optimised SQL queries</strong> integrating
+                  data from 3 source systems, reducing report generation time by
+                  ~35%.
+                </li>
+                <li>
+                  Identified peak admission months through utilisation analysis,
+                  contributing <strong>3 staffing recommendations</strong> to
+                  the resource planning team.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span class="tag">Power BI</span><span class="tag">SQL</span
+                ><span class="tag">Excel</span
+                ><span class="tag">Healthcare Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- BEL -->
+          <div class="timeline-item reveal">
+            <div class="tl-meta">
+              <span class="tl-date mono">Jul – Aug 2024</span>
+              <span class="tl-dot"></span>
+            </div>
+            <div class="tl-body">
+              <div class="tl-header">
+                <h3>Drone Data Analytics Intern</h3>
+                <span class="tl-company accent"
+                  >Bharat Electronics Limited</span
+                >
+                <span class="tl-loc mono">Ghaziabad</span>
+              </div>
+              <ul class="tl-bullets">
+                <li>
+                  Processed sensor logs from
+                  <strong>100+ drone flights (~500,000 records)</strong>,
+                  normalising datasets in MySQL across 6 sensor parameters.
+                </li>
+                <li>
+                  Built <strong>Power BI dashboards</strong> visualising
+                  altitude vs. EPH and battery voltage vs. current across 3
+                  drone models, enabling real-time anomaly detection.
+                </li>
+                <li>
+                  Applied <strong>predictive modelling</strong> to flag battery
+                  and altitude anomalies, helping the team anticipate 10+
+                  maintenance issues ahead of failure events.
+                </li>
+                <li>
+                  Designed a normalised MySQL schema reducing query execution
+                  time by <strong>~40%</strong> compared to flat-file baseline.
+                </li>
+              </ul>
+              <div class="tl-tags">
+                <span class="tag">MySQL</span><span class="tag">Power BI</span
+                ><span class="tag">Predictive Modelling</span
+                ><span class="tag">Sensor Data</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ────────────────────────────────────────────────────── -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-label mono">03 / Projects</div>
+        <h2 class="section-heading reveal">Things I've<br /><em>built.</em></h2>
+
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-num mono">01</div>
+            <h3>Agentic AI Demand Forecasting Agent</h3>
+            <p>
+              Built an AI-powered FMCG demand forecasting agent on 300+ SKUs,
+              achieving ~88% forecast accuracy. Designed MySQL ETL pipelines and
+              deployed an interactive Streamlit interface for non-technical
+              users.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">MySQL</span
+              ><span class="tag">Streamlit</span><span class="tag">pandas</span
+              ><span class="tag">NumPy</span>
+            </div>
+            <a href="#" class="project-link mono">GitHub ↗</a>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-num mono">02</div>
+            <h3>Healthcare Analytics Dashboard</h3>
+            <p>
+              Analysed 10,000+ patient records across 8 departments. Built 9
+              Power BI visualisations revealing waiting time patterns and
+              satisfaction variance across demographics. Delivered 3 service
+              improvement recommendations.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Power BI</span><span class="tag">SQL</span
+              ><span class="tag">Excel</span>
+            </div>
+            <a href="#" class="project-link mono">View Dashboard ↗</a>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-num mono">03</div>
+            <h3>Chargeback Analysis Tool</h3>
+            <p>
+              Automated the end-to-end chargeback reporting process at Driffle,
+              replacing manual analysis with a structured SQL-driven pipeline.
+              Reduced reporting turnaround and improved consistency across
+              payment datasets.
+            </p>
+            <div class="project-tags">
+              <span class="tag">SQL</span><span class="tag">Python</span
+              ><span class="tag">Automation</span>
+            </div>
+            <a href="#" class="project-link mono">Details ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ──────────────────────────────────────────────────────── -->
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-label mono">04 / Skills</div>
+        <h2 class="section-heading reveal">What I<br /><em>work with.</em></h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h4 class="mono skill-group-title">Databases &amp; Engineering</h4>
+            <div class="skill-pills">
+              <span class="pill">MySQL</span>
+              <span class="pill">SQL Server</span>
+              <span class="pill">Data Modelling</span>
+              <span class="pill">Schema Normalisation</span>
+              <span class="pill">Query Optimisation</span>
+              <span class="pill">ETL Pipelines</span>
+              <span class="pill">Metabase</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h4 class="mono skill-group-title">
+              Analytics &amp; Visualisation
+            </h4>
+            <div class="skill-pills">
+              <span class="pill">Power BI</span>
+              <span class="pill">Tableau</span>
+              <span class="pill">Excel</span>
+              <span class="pill">Pivot Tables</span>
+              <span class="pill">VLOOKUP</span>
+              <span class="pill">INDEX-MATCH</span>
+              <span class="pill">Power Query</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h4 class="mono skill-group-title">Programming</h4>
+            <div class="skill-pills">
+              <span class="pill">Python</span>
+              <span class="pill">pandas</span>
+              <span class="pill">NumPy</span>
+              <span class="pill">scikit-learn</span>
+              <span class="pill">SQL</span>
+              <span class="pill">C++</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h4 class="mono skill-group-title">Tools &amp; Collaboration</h4>
+            <div class="skill-pills">
+              <span class="pill">Git / GitHub</span>
+              <span class="pill">Jira</span>
+              <span class="pill">Confluence</span>
+              <span class="pill">Notion</span>
+              <span class="pill">Streamlit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ──────────────────────────────────────────────── -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-label mono">05 / Certifications</div>
+        <h2 class="section-heading reveal">NPTEL<br /><em>Courses.</em></h2>
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">01</div>
+            <h4>Distributed Systems</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">02</div>
+            <h4>Foundation of Cloud, IoT and Edge ML</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">03</div>
+            <h4>Responsible and Safe AI Systems</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">04</div>
+            <h4>Linear Programming &amp; its Applications</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">05</div>
+            <h4>Large Application Practicum</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">06</div>
+            <h4>Generative AI</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">07</div>
+            <h4>Ethical Hacking</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon mono">08</div>
+            <h4>Privacy and Security in Online Social Media</h4>
+            <p class="cert-org mono">NPTEL · IIT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ─────────────────────────────────────────────────────── -->
+    <section id="contact" class="section section-dark">
+      <div class="container contact-container">
+        <div class="section-label mono">06 / Contact</div>
+        <h2 class="section-heading reveal">Let's<br /><em>talk.</em></h2>
+        <p class="contact-sub reveal">
+          Open to data analyst and data engineering roles. Drop me a message.
+        </p>
+        <div class="contact-links reveal">
+          <a href="mailto:avishi.tyagi004@gmail.com" class="contact-link">
+            <span class="mono">Email</span>
+            <span class="contact-arrow">avishi.tyagi004@gmail.com ↗</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/avishi-tyagi-937882244"
+            target="_blank"
+            class="contact-link"
+          >
+            <span class="mono">LinkedIn</span>
+            <span class="contact-arrow">avishi-tyagi-937882244 ↗</span>
+          </a>
+          <a href="https://github.com/" target="_blank" class="contact-link">
+            <span class="mono">GitHub</span>
+            <span class="contact-arrow">github-handle ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ──────────────────────────────────────────────────────── -->
+    <footer>
+      <div class="container footer-inner">
+        <span class="mono">© 2026 Avishi Tyagi</span>
+        <span class="mono footer-credit"
+          >Built from scratch · No templates</span
+        >
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
